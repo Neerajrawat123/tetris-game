@@ -1,0 +1,76 @@
+.container{
+    height:100vh;
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    padding:1rem;
+
+}
+
+.start_menu{
+    background-color:black;
+    color:white;
+    justify-content:center;
+    padding:1rem;
+    /* background-color:red; */
+
+
+}
+
+.start_menu h1{
+    font-size: 5rem;
+}
+.btn_sec{
+    
+    display:flex;
+    padding: 0 6rem;
+    justify-content: space-between;
+}
+
+.btn{
+    font-size:2rem;
+    padding: 0 3rem;
+    border-radius: 8px;
+}
+
+.high_scores{
+    font-size: 1.5rem;
+}
+
+.game_ui{
+    width:80%;
+    padding: 3rem;
+    display:flex;
+    gap: 5rem;
+    justify-content: space-evenly;
+}
+
+.game{
+    border:5px solid red;
+    background-color: white;
+}
+
+.game_menu{
+    position: relative;
+    font-size: 1.5rem;
+    
+}
+
+.score{
+    height:50%;
+    font-size: 2rem;
+}
+
+.quit_btn{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.hidden{
+    display:none;
+}
+
+
+

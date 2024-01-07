@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tetris</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="start_menu hidden">
+            <h1>welcome to game</h1>
+            <div class="btn_sec">
+                <button class="btn start_btn">Start</button>
+                <button class="btn">Help</button>
+            </div>
+            <div class="high_scores ">
+                <h2>High Scores:</h2>
+            </div>
+            
+
+        </div>
+        <div class="game_ui ">
+            <div class="game">
+
+                <canvas id="c"></canvas>
+            </div>
+            <div class="game_menu">
+                <div class="score">
+                    <span>score: </span>
+                    <span id="score">0</span>
+                </div>
+                <div class="quit_options">
+                    <button class="btn quit_btn">Quit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script  src="app.js"></script>
+</body>
+</html>
